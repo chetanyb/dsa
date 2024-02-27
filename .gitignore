@@ -16,6 +16,10 @@
 *.lib
 *.a
 
+# Rust generated files
+Cargo.lock
+target/
+
 # Executables
 *.exe
 *.out
@@ -23,3 +27,6 @@
 .env
 *.out
 *.out
+
+# vscode
+.vscode
